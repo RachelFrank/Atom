@@ -55,7 +55,6 @@
     telemetryConsent: "limited"
     useCustomTitleBar: true
   editor:
-    fontSize: 13
     preferredLineLength: 80
     showIndentGuide: true
     tabLength: 4
@@ -67,7 +66,7 @@
     showIconsInEditorGutter: true
   linter: {}
   "linter-ui-default":
-    showPanel: true
+    panelHeight: 141
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
