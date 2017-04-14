@@ -53,7 +53,7 @@
       "escape-utils"
     ]
     telemetryConsent: "limited"
-    useCustomTitleBar: true
+    titleBar: "custom"
   editor:
     preferredLineLength: 80
     showIndentGuide: true
@@ -65,6 +65,7 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
+  "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 141
   "merge-conflicts":
