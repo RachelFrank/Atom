@@ -68,6 +68,7 @@
   "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 141
+    showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
