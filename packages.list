@@ -10,8 +10,8 @@ emmet@2.4.3
 emmet-snippets-compatibility@1.0.6
 file-icons@2.1.3
 git-log@0.4.1
-git-plus@7.4.0
-goto-definition@1.3.1
+git-plus@7.5.0
+goto-definition@1.3.2
 gulp-snippets@0.6.2
 highlight-selected@0.13.1
 html-entitize@1.1.0
@@ -28,7 +28,7 @@ linter-ui-default@1.2.3
 linter-write-good@0.9.0
 merge-conflicts@1.4.4
 mocha-test-runner@0.5.1
-no-title-bar@0.6.5
+no-title-bar@0.6.6
 pigments@0.39.1
 puddletown-language-html@1.1.0
 spell-check@0.71.4
