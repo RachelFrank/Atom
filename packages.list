@@ -1,4 +1,4 @@
-atom-beautify@0.29.19
+atom-beautify@0.29.22
 atom-ungit@0.5.3
 atom-wrap-in-tag@0.6.0
 autocomplete-bash-builtins@0.3.5
@@ -32,6 +32,7 @@ no-title-bar@0.6.5
 pigments@0.39.1
 puddletown-language-html@1.1.0
 spell-check@0.71.4
+tasks@2.6.6
 tree-view-git-status@1.3.1
 turbo-javascript@1.4.0
 
