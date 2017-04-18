@@ -12,6 +12,10 @@
     markdown: {}
     scss: {}
   core:
+    customFileTypes:
+      "source.coffee": [
+        "VagrantFile"
+      ]
     disabledPackages: [
       "language-go"
       "wrap-guide"
