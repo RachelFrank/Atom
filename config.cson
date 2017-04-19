@@ -9,8 +9,13 @@
     js: {}
     json:
       beautify_on_save: true
-    markdown: {}
-    scss: {}
+    markdown:
+      beautify_on_save: true
+      default_beautifier: "Remark"
+    scss:
+      beautify_on_save: true
+      convert_quotes: "single"
+      no_lead_zero: true
   core:
     customFileTypes:
       "source.coffee": [
@@ -69,9 +74,11 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
+  "linter-sass-lint":
+    configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
-    panelHeight: 141
+    panelHeight: 280
     showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
