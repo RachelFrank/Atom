@@ -6,7 +6,9 @@
     html:
       beautify_on_save: true
       wrap_line_length: 100000
-    js: {}
+    js:
+      beautify_on_save: true
+      jslint_happy: true
     json:
       beautify_on_save: true
     markdown:
@@ -74,11 +76,12 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
+  "linter-jshint": {}
   "linter-sass-lint":
     configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
-    panelHeight: 280
+    panelHeight: 187
     showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"

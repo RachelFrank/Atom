@@ -34,7 +34,7 @@
     'prefix': 'break'
     'body': 'break;'
   'Immediately Invoked Function Expression':
-    'prefix': 'iife'
+    'prefix': 'fiie'
     'body': '(function $1(global) {\n\t$0\n}(window));'
 
 ## CSS Snippets
