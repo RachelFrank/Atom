@@ -2,15 +2,18 @@
   "atom-beautify":
     css: {}
     general:
+      _analyticsUserId: "95185f2a-8830-4fa1-8c5f-0ce3004d33db"
       analytics: false
     html:
       beautify_on_save: true
       wrap_line_length: 100000
     js:
       beautify_on_save: true
+      end_with_newline: true
       jslint_happy: true
     json:
       beautify_on_save: true
+      end_with_newline: true
     markdown:
       beautify_on_save: true
       default_beautifier: "Remark"
@@ -81,7 +84,7 @@
     configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
-    panelHeight: 187
+    panelHeight: 70
     showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
