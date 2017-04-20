@@ -8,7 +8,7 @@
       beautify_on_save: true
       wrap_line_length: 100000
     js:
-      beautify_on_save: true
+      disabled: true
       end_with_newline: true
       jslint_happy: true
     json:
@@ -51,6 +51,9 @@
       "language-html"
       "javascript-snippets"
       "deprecation-cop"
+      "turbo-javascript"
+      "linter-eslint"
+      "linter-jshint"
     ]
     ignoredNames: [
       ".git"
@@ -79,12 +82,16 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter: {}
+  "linter-js-standard":
+    lintHtmlFiles: true
+    lintMarkdownFiles: true
+    showEslintRules: true
   "linter-jshint": {}
   "linter-sass-lint":
     configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
-    panelHeight: 70
+    panelHeight: 93
     showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
@@ -93,6 +100,8 @@
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
     scrollAnimationDuration: 100
+  "standard-formatter":
+    formatOnSave: true
   "status-bar": {}
   "tree-view":
     alwaysOpenExisting: true
