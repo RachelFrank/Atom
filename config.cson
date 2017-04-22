@@ -101,7 +101,6 @@
   "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 228
-    showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
@@ -122,3 +121,12 @@
     useFoldModeAsDefault: true
   welcome:
     showOnStartup: false
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 2
+".js.regexp.source":
+  editor:
+    tabLength: 2
+".js.source":
+  editor:
+    tabLength: 2
