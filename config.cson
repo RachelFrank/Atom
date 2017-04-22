@@ -26,6 +26,8 @@
       no_lead_zero: true
     xml:
       beautify_on_save: true
+  "atom-package-deps":
+    ignored: []
   core:
     customFileTypes:
       "source.coffee": [

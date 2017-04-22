@@ -35,7 +35,7 @@
     'body': 'break;'
   'Immediately Invoked Function Expression':
     'prefix': 'fiie'
-    'body': '(function $1(global) {\n\t$0\n}(window));'
+    'body': '(function $1(global) {\n  $0\n}(window));'
 
 ## CSS Snippets
 
