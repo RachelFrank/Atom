@@ -33,9 +33,6 @@
   'break':
     'prefix': 'break'
     'body': 'break;'
-  'Immediately Invoked Function Expression':
-    'prefix': 'fiie'
-    'body': '(function $1(global) {\n  $0\n}(window));'
 
 ## CSS Snippets
 
