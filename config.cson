@@ -56,11 +56,30 @@
       "exception-reporting"
       "language-php"
       "language-html"
-      "javascript-snippets"
       "deprecation-cop"
       "turbo-javascript"
       "linter-jshint"
       "linter-eslint"
+      "javascript-snippets"
+      "language-javascript-jsx"
+      "es6-javascript"
+      "imdone-atom"
+      "atom-ungit"
+      "autocomplete-lodash"
+      "build-dockerfile"
+      "egghead-react-snippets"
+      "git-log"
+      "gulp-snippets"
+      "intentions"
+      "linter-write-good"
+      "open-in-browser"
+      "react-snippets"
+      "react-redux-snippets"
+      "react-native-snippets"
+      "react-es6-snippets"
+      "react"
+      "emmet"
+      "node-debugger"
     ]
     ignoredNames: [
       ".git"
@@ -71,6 +90,7 @@
       "Thumbs.db"
       "desktop.ini"
       "node_modules"
+      "shrinkwrap.yaml"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -121,6 +141,7 @@
   "tree-view":
     alwaysOpenExisting: true
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   "w3c-validation":
     cssMedia: "braille"
     hideOnNoErrors: true
