@@ -5,7 +5,6 @@
       _analyticsUserId: "95185f2a-8830-4fa1-8c5f-0ce3004d33db"
       analytics: false
     html:
-      beautify_on_save: true
       wrap_line_length: 100000
     js:
       disabled: true
@@ -80,7 +79,10 @@
       "react"
       "emmet"
       "node-debugger"
+      "jekyll"
+      "linter-js-standard"
     ]
+    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
