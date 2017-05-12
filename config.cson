@@ -28,6 +28,7 @@
   "atom-package-deps":
     ignored: []
   core:
+    closeDeletedFileTabs: true
     customFileTypes:
       "source.coffee": [
         "VagrantFile"
@@ -81,6 +82,7 @@
       "node-debugger"
       "jekyll"
       "linter-js-standard"
+      "language-markdown"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -120,11 +122,13 @@
     lintMarkdownFiles: true
     showEslintRules: true
   "linter-jshint": {}
+  "linter-markdown": {}
   "linter-sass-lint":
     configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 228
+  "markdown-preview": {}
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
@@ -143,7 +147,6 @@
   "tree-view":
     alwaysOpenExisting: true
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   "w3c-validation":
     cssMedia: "braille"
     hideOnNoErrors: true

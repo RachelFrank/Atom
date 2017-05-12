@@ -33,6 +33,7 @@ js-patterns-atom-snippets@0.2.1
 language-crontab@1.0.0
 language-docker@1.1.7
 language-javascript-jsx@0.3.7
+language-markdown@0.22.0
 linter@2.1.4
 linter-coffeelint@1.2.1
 linter-csslint@1.3.4

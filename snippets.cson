@@ -104,6 +104,12 @@ app.use((err, req, res, next) => {
   res.status(500).send(err)
 })
 """
+## Markdown / Jekyll
+'.source.gfm':
+  'Jekyll Image':
+    'prefix': 'jimg'
+    'body': '{% include img.html src="$1" type="$2" caption="$3" %}\n$0'
+
 ## CSS Snippets
 
 '.source.css':
