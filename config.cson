@@ -61,7 +61,6 @@
       "linter-jshint"
       "linter-eslint"
       "javascript-snippets"
-      "language-javascript-jsx"
       "es6-javascript"
       "imdone-atom"
       "atom-ungit"
@@ -81,7 +80,6 @@
       "emmet"
       "node-debugger"
       "jekyll"
-      "linter-js-standard"
       "language-markdown"
     ]
     excludeVcsIgnoredPaths: false
@@ -128,6 +126,7 @@
   "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 228
+    showPanel: true
   "markdown-preview": {}
   "merge-conflicts":
     gitPath: "/usr/bin/git"
