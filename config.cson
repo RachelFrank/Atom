@@ -78,6 +78,8 @@
       "language-javascript"
       "linter-js-standard"
       "remote-edit"
+      "standard-formatter"
+      "editor-stats"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -143,7 +145,6 @@
     scriptMain: "index.js"
   react: {}
   "standard-formatter":
-    formatOnSave: true
     honorPackageConfig: false
   "status-bar":
     isVisible: false
