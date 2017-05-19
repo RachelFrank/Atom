@@ -78,8 +78,9 @@
       "language-javascript"
       "linter-js-standard"
       "remote-edit"
-      "standard-formatter"
       "editor-stats"
+      "merge-conflicts"
+      "atom-autocomplete-php"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -129,7 +130,6 @@
   "linter-ui-default":
     panelHeight: 69
     showPanel: true
-    showStatusBar: false
     showTooltip: false
     statusBarRepresents: "Current File"
   "markdown-preview": {}
@@ -145,11 +145,11 @@
     scriptMain: "index.js"
   react: {}
   "standard-formatter":
+    formatOnSave: true
     honorPackageConfig: false
-  "status-bar":
-    isVisible: false
+  "status-bar": {}
   "tree-view":
-    alwaysOpenExisting: true
+    alwaysOpenExisting: false
     hideIgnoredNames: true
   "w3c-validation":
     cssMedia: "braille"
