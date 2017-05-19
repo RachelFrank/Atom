@@ -19,9 +19,14 @@
 
 '.editor':
   'alt-cmd-w': 'editor:toggle-soft-wrap'
+  'alt-cmd-shift-l': 'window:reload'
   'alt-cmd-e': 'html-entitize:encode'
   'alt-cmd-d': 'html-entitize:decode'
   'ctrl-1': 'wrap-in-tag:wrap'
+
+'atom-workspace atom-text-editor.autocomplete-active':
+  'tab': 'snippets:next-tab-stop'
+  'shift-tab': 'snippets:previous-tab-stop'
 
 # You can find more information about keymaps in these guides:
 # * http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings

@@ -7,18 +7,22 @@
     html:
       wrap_line_length: 100000
     js:
-      disabled: true
-      end_with_comma: true
+      beautify_on_save: true
+      break_chained_methods: true
       end_with_newline: true
+      eval_code: true
       indent_size: 2
-      indent_with_tabs: true
       jslint_happy: true
+      keep_array_indentation: true
+      keep_function_indentation: true
     json:
       beautify_on_save: true
       end_with_newline: true
     markdown:
       beautify_on_save: true
       default_beautifier: "Remark"
+    php:
+      beautify_on_save: true
     scss:
       beautify_on_save: true
       convert_quotes: "single"
@@ -27,6 +31,12 @@
       beautify_on_save: true
   "atom-package-deps":
     ignored: []
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+    maxVisibleSuggestions: 15
+  "browser-refresh":
+    googleChrome: false
+    googleChromeCanary: true
   core:
     closeDeletedFileTabs: true
     customFileTypes:
@@ -54,33 +64,14 @@
       "welcome"
       "metrics"
       "exception-reporting"
-      "language-php"
       "language-html"
       "deprecation-cop"
-      "turbo-javascript"
-      "linter-jshint"
-      "linter-eslint"
       "javascript-snippets"
-      "es6-javascript"
-      "imdone-atom"
-      "atom-ungit"
-      "autocomplete-lodash"
-      "build-dockerfile"
-      "egghead-react-snippets"
-      "git-log"
-      "gulp-snippets"
-      "intentions"
       "linter-write-good"
-      "open-in-browser"
-      "react-snippets"
-      "react-redux-snippets"
-      "react-native-snippets"
-      "react-es6-snippets"
-      "react"
-      "emmet"
-      "node-debugger"
-      "jekyll"
-      "language-markdown"
+      "expressjs"
+      "autocomplete-bash-builtins"
+      "puddletown-d3-snippets"
+      "language-javascript"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -93,6 +84,7 @@
       "desktop.ini"
       "node_modules"
       "shrinkwrap.yaml"
+      "vendor"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -101,6 +93,7 @@
     telemetryConsent: "limited"
     titleBar: "custom"
   editor:
+    lineHeight: 2.2
     preferredLineLength: 80
     showIndentGuide: true
     tabLength: 4
@@ -110,14 +103,15 @@
   "file-icons": {}
   "git-diff":
     showIconsInEditorGutter: true
-  linter: {}
+  linter:
+    lintOnChange: false
+    lintOnChangeInterval: 2000
+    lintOnOpen: false
   "linter-eslint":
     eslintrcPath: "~/Documents/Dev/Linters/.eslintrc"
     globalNodePath: "/usr/local"
     useGlobalEslint: true
   "linter-js-standard":
-    lintHtmlFiles: true
-    lintMarkdownFiles: true
     showEslintRules: true
   "linter-jshint": {}
   "linter-markdown": {}
@@ -125,8 +119,7 @@
     configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
-    panelHeight: 228
-    showPanel: true
+    panelHeight: 158
   "markdown-preview": {}
   "merge-conflicts":
     gitPath: "/usr/bin/git"
@@ -152,6 +145,10 @@
     useFoldModeAsDefault: true
   welcome:
     showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
 ".js.jsx.source":
   editor:
     tabLength: 2
@@ -162,5 +159,10 @@
   editor:
     tabLength: 2
 ".js.source":
+  editor:
+    showInvisibles: false
+    softWrap: false
+    tabLength: 2
+".jsdoc.source":
   editor:
     tabLength: 2
