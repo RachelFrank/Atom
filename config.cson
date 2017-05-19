@@ -24,15 +24,20 @@
     php:
       beautify_on_save: true
     scss:
+      align_assignments: true
       beautify_on_save: true
       convert_quotes: "single"
       no_lead_zero: true
+      preserve_newlines: true
     xml:
       beautify_on_save: true
   "atom-package-deps":
     ignored: []
+  "atom-ternjs":
+    snippetsFirst: true
+    sort: false
+    useSnippets: true
   "autocomplete-plus":
-    confirmCompletion: "enter"
     maxVisibleSuggestions: 15
   "browser-refresh":
     googleChrome: false
@@ -70,8 +75,9 @@
       "linter-write-good"
       "expressjs"
       "autocomplete-bash-builtins"
-      "puddletown-d3-snippets"
       "language-javascript"
+      "linter-js-standard"
+      "remote-edit"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -119,7 +125,11 @@
     configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
-    panelHeight: 158
+    panelHeight: 69
+    showPanel: true
+    showStatusBar: false
+    showTooltip: false
+    statusBarRepresents: "Current File"
   "markdown-preview": {}
   "merge-conflicts":
     gitPath: "/usr/bin/git"
@@ -135,7 +145,8 @@
   "standard-formatter":
     formatOnSave: true
     honorPackageConfig: false
-  "status-bar": {}
+  "status-bar":
+    isVisible: false
   "tree-view":
     alwaysOpenExisting: true
     hideIgnoredNames: true
