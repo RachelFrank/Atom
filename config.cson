@@ -147,7 +147,8 @@
   "standard-formatter":
     formatOnSave: true
     honorPackageConfig: false
-  "status-bar": {}
+  "status-bar":
+    isVisible: false
   "tree-view":
     alwaysOpenExisting: false
     hideIgnoredNames: true
