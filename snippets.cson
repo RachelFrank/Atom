@@ -1,0 +1,91 @@
+".source.js":
+  'Chai File':
+    'prefix': 'chai'
+    'body': '''
+/* global describe, it */
+'use strict'
+
+var expect = require('chai').expect
+const obj = require('${1:file name}').${2:object or function}
+    '''
+  'Chai Describe':
+    'prefix': 'describe'
+    'body': '''
+describe('$1', () => {
+  var fn = obj.$1
+
+  it('$2', () => {
+    expect(fn($3)).to.equal($4)
+  })
+})
+    '''
+
+".source.gfm":
+  'Jekyll Image':
+    'prefix': 'jimg'
+    'body': '''
+{% include img.html src="$1" type="$2" caption="$3" %}
+      '''
+".source.php":
+  'object arrow':
+    'prefix': '.'
+    'body': '''
+->$0
+    '''
+  'object arrow':
+    'prefix': '-'
+    'body': '''
+->$0
+    '''
+  'public function':
+    'prefix': 'pfunctio'
+    'body': '''
+public function $1($2)
+{
+	$0
+}
+    '''
+  'protected function':
+    'prefix': 'pfunction'
+    'body': '''
+protected function $1($2)
+{
+	$0
+}
+    '''
+  'public static function':
+    'prefix': 'psfunctio'
+    'body': '''
+public static function $1($2)
+{
+	$0
+}
+    '''
+  'protected static function':
+    'prefix': 'psfunction'
+    'body': '''
+protected static function $1($2)
+{
+	$0
+}
+    '''
+  'public variable':
+    'prefix': 'pva'
+    'body': '''
+public $1 = $0
+    '''
+  'protected variable':
+    'prefix': 'pvar'
+    'body': '''
+protected $1 = $0
+    '''
+  'public static variable':
+    'prefix': 'psva'
+    'body': '''
+public static $1 = $0
+    '''
+  'protected static variable':
+    'prefix': 'psvar'
+    'body': '''
+protected static $1 = $0
+    '''

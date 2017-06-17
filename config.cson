@@ -7,8 +7,7 @@
     html:
       wrap_line_length: 100000
     js:
-      beautify_on_save: true
-      break_chained_methods: true
+      disabled: true
       end_with_newline: true
       eval_code: true
       indent_size: 2
@@ -30,6 +29,8 @@
       preserve_newlines: true
     xml:
       beautify_on_save: true
+  "atom-csscomb":
+    executeOnSave: true
   "atom-package-deps":
     ignored: []
   "atom-ternjs":
@@ -72,7 +73,6 @@
       "language-html"
       "deprecation-cop"
       "javascript-snippets"
-      "linter-write-good"
       "expressjs"
       "autocomplete-bash-builtins"
       "language-javascript"
@@ -80,6 +80,9 @@
       "remote-edit"
       "editor-stats"
       "merge-conflicts"
+      "linter-jshint"
+      "standard-formatter"
+      "whitespace"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -105,20 +108,18 @@
     preferredLineLength: 80
     showIndentGuide: true
     tabLength: 4
-    tabType: "hard"
   "exception-reporting":
     userId: "d395dc69-4b30-628d-f880-b7bae1732773"
   "file-icons": {}
   "git-diff":
     showIconsInEditorGutter: true
   linter:
-    lintOnChange: false
     lintOnChangeInterval: 2000
     lintOnOpen: false
   "linter-eslint":
     eslintrcPath: "~/Documents/Dev/Linters/.eslintrc"
-    globalNodePath: "/usr/local"
-    useGlobalEslint: true
+    fixOnSave: true
+    globalNodePath: "/Users/Brent/.nvm/versions/node/v7.10.0"
   "linter-js-standard":
     showEslintRules: true
   "linter-jshint": {}
@@ -128,6 +129,7 @@
   "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 69
+    showPanel: true
     showTooltip: false
     statusBarRepresents: "Current File"
   "markdown-preview": {}
@@ -141,15 +143,21 @@
   "node-debugger":
     nodePath: "~/.nvm/versions/node/v6.10.3/bin/node"
     scriptMain: "index.js"
+  "php-fmt":
+    PSRNaming: true
+    autoAlign: true
+    selfUpdate: true
+    useSpaceIndentation: true
   react: {}
   "standard-formatter":
     formatOnSave: true
     honorPackageConfig: false
   "status-bar":
-    isVisible: false
+    fullWidth: false
   "tree-view":
     alwaysOpenExisting: false
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   "w3c-validation":
     cssMedia: "braille"
     hideOnNoErrors: true
