@@ -32,6 +32,20 @@ describe('$1', () => {
     'body': '''
 ->$0
     '''
+  'echo':
+    'prefix': 'echo'
+    'body': '''
+echo "$1";$0
+${2:exit;}
+    '''
+  'print_r':
+    'prefix': 'print_r'
+    'body': '''
+echo "<pre>";
+print_r(\$$1);
+echo "<pre>";
+${2:exit;}
+    '''
   'object arrow':
     'prefix': '-'
     'body': '''
