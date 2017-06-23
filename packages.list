@@ -29,14 +29,14 @@ linter-coffeelint@1.2.1
 linter-eslint@8.2.1
 linter-htmlhint@1.3.3
 linter-js-standard@3.9.1
-linter-jshint@3.1.2
+linter-jshint@3.1.3
 linter-markdown@4.0.1
 linter-php@1.3.2
 linter-scss-lint@3.1.0
 linter-ui-default@1.6.2
 linter-write-good@0.9.0
 markdown-toc@0.4.2
-mocha-test-runner@0.5.1
+mocha-test-runner@1.0.0
 no-title-bar@0.6.6
 php-fmt@0.1.2
 pigments@0.39.1
