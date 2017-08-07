@@ -18,7 +18,6 @@
       beautify_on_save: true
       end_with_newline: true
     markdown:
-      beautify_on_save: true
       default_beautifier: "Remark"
     php:
       beautify_on_save: true
@@ -129,7 +128,6 @@
   "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 69
-    showPanel: true
     showTooltip: false
     statusBarRepresents: "Current File"
   "markdown-preview": {}

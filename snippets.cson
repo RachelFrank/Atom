@@ -103,3 +103,8 @@ public static $1 = $0
     'body': '''
 protected static $1 = $0
     '''
+  'return':
+    'prefix': 'r'
+    'body': '''
+return $0;
+    '''
