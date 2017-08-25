@@ -103,6 +103,7 @@
     telemetryConsent: "limited"
     titleBar: "custom"
   editor:
+    fontSize: 16
     lineHeight: 2.2
     preferredLineLength: 80
     showIndentGuide: true
@@ -146,6 +147,8 @@
     autoAlign: true
     selfUpdate: true
     useSpaceIndentation: true
+  "r-exec":
+    whichApp: "iTerm2"
   react: {}
   "standard-formatter":
     formatOnSave: true
