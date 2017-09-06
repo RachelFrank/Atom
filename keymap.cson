@@ -24,7 +24,7 @@
   'alt-cmd-d': 'html-entitize:decode'
   'ctrl-1': 'wrap-in-tag:wrap'
 'atom-workspace atom-text-editor:not([mini])':
-  'cmd-enter': 'r-exec:send-command'
+  'alt-cmd-enter': 'r-exec:send-command'
 'atom-workspace atom-text-editor.autocomplete-active':
   'tab': 'snippets:next-tab-stop'
   'shift-tab': 'snippets:previous-tab-stop'

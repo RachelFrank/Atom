@@ -18,6 +18,7 @@
       beautify_on_save: true
       end_with_newline: true
     markdown:
+      beautify_on_save: true
       default_beautifier: "Remark"
     php:
       beautify_on_save: true
@@ -103,7 +104,6 @@
     telemetryConsent: "limited"
     titleBar: "custom"
   editor:
-    fontSize: 16
     lineHeight: 2.2
     preferredLineLength: 80
     showIndentGuide: true
