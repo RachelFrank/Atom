@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/Documents/Dev/Atom
+cd ~/Dev/Config/Atom
 apm list --installed --bare > packages.list
 git add .
 git commit -m "updated atom preferences"

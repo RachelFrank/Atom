@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ~/Documents/Dev/Atom
+cd ~/Dev/Config/Atom
 git pull origin mac

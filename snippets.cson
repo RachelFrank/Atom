@@ -21,6 +21,13 @@ describe('$1', () => {
     '''
 
 ".source.gfm":
+  'Generic Code block':
+    'prefix': '``'
+    'body': '''
+```${1:bash}
+$0
+```
+    '''
   'Jekyll Image':
     'prefix': 'jimg'
     'body': '''

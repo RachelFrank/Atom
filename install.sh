@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-ln -s ~/Documents/Dev/Atom ~/.atom
-apm install --packages-file ~/Documents/Dev/Atom/packages.list
+ln -s ~/Dev/Config/Atom ~/.atom
+apm install --packages-file ~/Dev/Config/Atom/packages.list

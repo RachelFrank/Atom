@@ -83,6 +83,7 @@
       "linter-jshint"
       "standard-formatter"
       "whitespace"
+      "linter-write-good"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -117,7 +118,7 @@
     lintOnChangeInterval: 2000
     lintOnOpen: false
   "linter-eslint":
-    eslintrcPath: "~/Documents/Dev/Linters/.eslintrc"
+    eslintrcPath: "~/Dev/Config/Linters/.eslintrc"
     fixOnSave: true
     globalNodePath: "/Users/Brent/.nvm/versions/node/v7.10.0"
   "linter-js-standard":
@@ -125,13 +126,16 @@
   "linter-jshint": {}
   "linter-markdown": {}
   "linter-sass-lint":
-    configFile: "~/Documents/Dev/Linters/.scss-lint.yml"
+    configFile: "~/Dev/Config/Linters/.scss-lint.yml"
   "linter-scss-lint": {}
   "linter-ui-default":
     panelHeight: 69
     showTooltip: false
     statusBarRepresents: "Current File"
   "markdown-preview": {}
+  "markdown-preview-enhanced":
+    mathRenderingOption: "MathJax"
+    previewTheme: "github-dark.css"
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
