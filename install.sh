@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf ~/.atom
 
 ln -s ~/Dev/Config/Atom ~/.atom
 
