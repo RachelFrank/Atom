@@ -44,13 +44,13 @@ mocha-test-runner@1.0.0
 no-title-bar@1.11.3
 php-fmt@0.1.2
 pigments@0.40.2
-puddletown-css-snippets@1.0.1
+puddletown-css-snippets@1.1.0
 puddletown-d3-snippets@1.0.1
 puddletown-gulp-snippets@1.0.1
 puddletown-html-snippets@1.0.1
-puddletown-javascript-browser-snippets@1.0.1
-puddletown-javascript-node-snippets@1.0.1
-puddletown-javascript-snippets@1.0.5
+puddletown-javascript-browser-snippets@1.1.0
+puddletown-javascript-node-snippets@1.1.0
+puddletown-javascript-snippets@1.1.0
 puddletown-language-html@1.0.1
 puddletown-language-javascript@1.0.1
 puddletown-react-snippets@1.0.1
